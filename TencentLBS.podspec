@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "http://xxxx", :tag =>""}
   s.static_framework = true
-  s.libraries = 'z', '1.2.5'
+  s.libraries = 'z'
 
   s.subspec 'headers' do |headers|
     headers.source_files  = "Headers/*.{h}"
