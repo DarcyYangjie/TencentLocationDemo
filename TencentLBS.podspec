@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "" => "" }
   s.platform     = :ios, "7.0"
-  s.source       =  = { :git => "http://xxxx", :tag =>""}
+  s.source       = { :git => "http://xxxx", :tag =>""}
   s.static_framework = true
   s.libraries = 'libz.1.2.5.tbd'
 
